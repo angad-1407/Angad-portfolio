@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Angad-portfolio/static/css/main.37c73572.css",
+    "main.js": "/Angad-portfolio/static/js/main.a03ff681.js",
+    "index.html": "/Angad-portfolio/index.html",
+    "main.37c73572.css.map": "/Angad-portfolio/static/css/main.37c73572.css.map",
+    "main.a03ff681.js.map": "/Angad-portfolio/static/js/main.a03ff681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37c73572.css",
+    "static/js/main.a03ff681.js"
+  ]
+}
