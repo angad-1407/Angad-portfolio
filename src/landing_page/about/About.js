@@ -98,7 +98,7 @@ export default function About() {
             <div className="mt-4">
               <a
                 className="btn btn-primary me-3 px-4 py-2 fs-6"
-                href="/media/Angad aheer - Resume.pdf"
+                href={`${process.env.PUBLIC_URL}/media/Angad aheer - Resume.pdf`}
                 download
                 role="button"
               >
@@ -107,7 +107,7 @@ export default function About() {
 
               <a
                 className="btn btn-outline-light px-4 py-2 fs-6"
-                href="/media/Angad aheer - Resume.pdf"
+                href={`${process.env.PUBLIC_URL}/media/Angad aheer - Resume.pdf`}
                 download
                 role="button"
               >
@@ -119,7 +119,7 @@ export default function About() {
           {/* Right side (image from public folder) */}
           <div className="col-md-6 d-flex justify-content-center">
             <img
-              src="/media/images/my_image.png"
+              src={`${process.env.PUBLIC_URL}/media/images/my_image.png`}
               alt="Angad Aheer"
               className="img-fluid rounded-pill shadow-lg"
               style={{ maxWidth: "280px" }}

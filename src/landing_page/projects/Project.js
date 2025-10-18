@@ -11,7 +11,7 @@ function Projects() {
       description: "A smart farming web application to assist farmers and agri-enthusiasts by integrating ML, DL and data-driven solutions.",
       technologies: ["Python", "Machine Learning", "Streamlit", "TensorFlow", "Netlify"],
       liveLink: "https://agrinova-ecspappfaiebprgcbjeynmi.streamlit.app/",
-      image: "/media/images/agrinova.png"
+      image: `${process.env.PUBLIC_URL}/media/images/agrinova.png`
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function Projects() {
       description: "A collection of 3 front-end projects: Tic Tac Toe, Book List App, and Spotify Clone.",
       technologies: ["HTML", "CSS", "JavaScript", "Netlify", "GitHub"],
       liveLink: "https://angad-1407.github.io/PixelPlayground/",
-      image: "/media/images/pixel-playground.png"
+      image: `${process.env.PUBLIC_URL}/media/images/pixel-playground.png`
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ function Projects() {
       description: "Modern responsive portfolio with smooth animations, dark theme, and optimized performance.",
       technologies: ["React", "Bootstrap", "HTML", "JavaScript", "GitHub"],
       liveLink: "https://angad-1407.github.io/Angad-portfolio/",
-      image: "/media/images/portfolio-1.png"
+      image: `${process.env.PUBLIC_URL}/media/images/portfolio-1.png`
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ function Projects() {
       description: "Built initial dataset and used pretrained CNN-based model architecture. Currently working on improving accuracy and real-time predictions.",
       technologies: ["Python", "Deep Learning", "TensorFlow", "Computer Vision", "CNN"],
       liveLink: "#projects",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop&auto=format"
+      image: `${process.env.PUBLIC_URL}/media/images/skin disease classification.png`
     }
   ];
 
