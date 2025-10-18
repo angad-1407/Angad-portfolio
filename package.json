@@ -6,7 +6,7 @@
 
   "private": true,
 
-  "homepage": "https://angad-1407.github.io/Angad-portfolio",
+  "homepage": ".",
 
   "dependencies": {
 
@@ -37,15 +37,8 @@
   },
 
   "scripts": {
-
     "start": "react-scripts start",
-
-    "build": "react-scripts build",
-
-    "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d build"
-
+    "build": "react-scripts build"
   },
 
   "eslintConfig": {
